@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543311719886",
+    "firebase_url": "https://childmath-ad8ed.firebaseio.com",
+    "project_id": "childmath-ad8ed",
+    "storage_bucket": "childmath-ad8ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543311719886:android:83e59f070cce2735",
+        "android_client_info": {
+          "package_name": "com.tamer.child_math"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543311719886-gregavdi2dgfqisrjt8r8kv2bb6f8cjp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tamer.child_math",
+            "certificate_hash": "012b745ec49aecbaae35e40efa5a54e3125fb8c5"
+          }
+        },
+        {
+          "client_id": "543311719886-hi0vp6e7471j5f6vtrn81eqse8uhli6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtBC-YUho_bifU4ZIWdtegzaWsXZ-nmco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543311719886-hi0vp6e7471j5f6vtrn81eqse8uhli6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

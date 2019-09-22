@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tamer.child_math">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tips_teacher"></activity>
+        <activity android:name=".CreateOnLineGame" />
+        <activity android:name=".teacherLogINActivity" />
+        <activity android:name=".addAQuestion" />
+        <activity android:name=".teacherMainActivity" />
+
+        <service android:name=".Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity
+            android:name="Firebase.NotificationActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BaseLoginActivity" />
+        <activity android:name=".Result" />
+        <activity android:name=".Languages" />
+        <activity android:name=".opertion" />
+        <activity android:name=".Quistions" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Test" />
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Test">
+
+    <Button
+        android:id="@+id/optionInTestPage"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settingbuttn"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/gr"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:gravity="center"
+        android:text="@string/test_Test"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="60sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarInTest"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="165dp" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/startInTestPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_Start"
+            android:background="@drawable/login"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/ignoreInTestPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/signin"
+            android:text="@string/test_ignore" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonForTestOnLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play online"
+        android:background="@drawable/login"/>
+
+
+</android.widget.LinearLayout>

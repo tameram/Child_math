@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outofcourse">أخرج </string>
+    <string name="cancel">الغاء</string>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">تسجيل دخول</string>
+    <string name="prompt_email">بريد الكتروني</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="title_activity_settings">اعدادات</string>
+    <string name="sound_setting">صوت :</string>
+    <string name="ok_setting">موافق :</string>
+    <string name="screenbrightness_setting">اضائة :</string>
+    <string name="lettters_setting">حجم الحروف :</string>
+    <string name="background_setting">لون الخلفية :</string>
+    <string name="language_setting">اللغة :</string>
+    <string name="option_setting">اعدادات</string>
+    <!-- Strings related to Mainactivity -->
+    <string name="mainactivity_logInTheHomePage">تسجيل الدخول</string>
+    <string name="mainactivity_optionInHomePage">اعدادات</string>
+    <string name="mainactivity_signUpTheHomePage">تسجيل</string>
+
+    <!-- Strings related to Mainactivity2-->
+
+    <string name="mainactivity2_profile">الحساب </string>
+    <string name="mainactivity2_Add">جمع </string>
+    <string name="mainactivity2_Subtract">طرح </string>
+    <string name="mainactivity2_Multiply">ضرب </string>
+    <string name="mainactivity2_Divide">قسمة </string>
+    <string name="mainactivity2_Signout">تسجيل الخروج </string>
+
+    <!-- Strings related to opertions-->
+
+    <string name="opertions_Question">سؤال : </string>
+    <string name="opertions_CLR">CLR </string>
+    <string name="opertions_OK">موافق</string>
+    <string name="opertions_thatset">توقف </string>
+
+    <!-- Strings related to questions-->
+
+    <string name="questions_Questions">اسئلة</string>
+    <string name="questions_ChooseaLevel">اختار المستوى : </string>
+    <string name="questions_Whatdotoyprefertostudy">مائا تفضل ان تتعلم :  </string>
+    <string name="questions_Add">جمع </string>
+    <string name="questions_Subtract">طرح </string>
+    <string name="questions_Multiply">ضرب </string>
+    <string name="questions_Divide">قسمة </string>
+    <string name="questions_Starttest">ابدأ الاختبار </string>
+
+    <!-- Strings related to result-->
+
+    <string name="result_Result">النتيجة</string>
+    <string name="result_Add">جمع :</string>
+    <string name="result_Subtract">طرح : </string>
+    <string name="result_Multiply">ضرب :</string>
+    <string name="result_Divide">قسمة : </string>
+    <string name="result_Gotoyourprofile">الذهاب الى ملف الشخصي</string>
+
+    <!-- Strings related to sign up-->
+
+    <string name="signUp_Signup">تسجيل</string>
+    <string name="signUp_UserName">اسم المستخدم :</string>
+    <string name="signUp_Password">كلمة المرور : </string>
+    <string name="signUp_Email">البريد الالكتروني : </string>
+
+
+    <!-- Strings related to test-->
+
+    <string name="test_Test">اختبار</string>
+    <string name="test_Start">بدأ</string>
+    <string name="test_ignore">تجاهل</string>
+    <string name="test_option">اعدادات</string>
+
+</resources>
